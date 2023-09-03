@@ -62,4 +62,4 @@ const Navbar = () => {
   )
 }
 
-export default navbar ;
+export default Navbar ;

@@ -9,7 +9,7 @@ import Avatar from '../../components/Avatar/Avatar'
 import './navbar.css'
 import { setCurrentuser } from '../../actions/currentUser'
 
-const navbar = () => {
+const Navbar = () => {
     const dispatch= useDispatch()
     var User= useSelector((state) => state.currentUserReducer)
     console.log(User)

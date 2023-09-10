@@ -22,3 +22,4 @@ export const deleteAnswer = (id,answerId, noOfAnswers) => API.patch(`/answer/del
 
 export const fetchAllUsers= () =>API.get('/user/getAllUsers');
 export const updateProfile =(id,updateData) =>API.patch(`/user/update/${id}`,updateData)
+export const SignupForm=(authData)=>API.post('/user/signupForm', authData);

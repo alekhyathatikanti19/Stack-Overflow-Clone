@@ -5,6 +5,6 @@ import { Router, Route } from 'react-router'
 
 const router= express.Router();
 
-router.post('/signup', signup);
+router.post('/signup', auth,SignupForm);
 
 export default router
